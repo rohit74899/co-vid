@@ -24,6 +24,26 @@
         img{
             position: center;
         }
+        * {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+button{
+    size=100px
+} 
+
     </style>
 </head>
 <body>
@@ -49,11 +69,28 @@
      <!-- menu container--> 
     <h1>UNIT AGAINST COVID</h1>ATURE
     <br>
-    <img src="H:\web development\HTML-NATURE AND HUMANS\image\covid.jpg" alt="">
+    <img src="" alt="">
     <hr>
     
     
-    <hr>mr/miss/sir
-    <hr>hi
+    <div class="row">
+        <div class="column">
+          <button width=420px height="345"><a href="vaccination.html"><img src= "H:\web development\HTML-NATURE AND HUMANS\image\vaccine.png" alt="Snow" style="width:100%"></a></button>
+        </div>
+        <div class="column">
+          <button><a href="precautions.html"><img src="H:\web development\HTML-NATURE AND HUMANS\image\co.jpg" alt="Forest" style="width:90%">
+          </div></a></button>
+        <div class="column">
+         <button><a href="contact1.html"class:box-shadow> <img src="H:\web development\HTML-NATURE AND HUMANS\image\covid.2.jpg" alt="Mountains" style="width:100%"></a>contact</button>
+        </div>
+      </div>
+      <br>
+      <div class="row">
+        <div class="column">
+          <iframe width="" height="345" src=""></div>
+      </iframe></div>
+      
+    
+    
 </body>
 </html>
