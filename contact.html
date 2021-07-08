@@ -4,16 +4,119 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>contact</title>
+    <title>covid 19</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
 </head>
 <body>
-    <h1>we are here to help you</h1>
-    <a href="contact1.html">contact form</a><BR></BR>
-    <a href="livechat.html">LIVE CHAT WITH DOCTORS</a><br>
-    <a href="successtories.html">succes stories</a>
-    <a href="H:\web development\HTML-NATURE AND HUMANS\HTML-NATURE AND HUMANS\pdf\Engineering chemistry.pdf.html"></a>
-    <a href="H:\web development\HTML-NATURE AND HUMANS\precautions.html"></a>
-</body>
+     <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="" alt=""></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="">OTHER</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+         </nav>
+         <h1>Contact Us</h1>
+        
+     </section>
+     <!---------------CONTACT US----------------->
+     <section class="location">
+        
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30514.08823924674!2d74.2543062912989!3d17.0598799271049!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc10b45d99a1f49%3A0x5c5d788ae54de814!2sUran%20Islampur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1625746095575!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+     </section>
+     <section class="contact-us">
+         <div class="row">
+             <div class="contact-col">
+                 <div>
+                    <i class="fa fa-home"></i>
+                    <span>
+                        <h5>home</h5>
+                        <p></p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="fa fa-phone"></i>
+                    <span>
+                        <h5>phone</h5>
+                        <p></p>
+                    </span>
+                 </div>
+                 <div>
+                    <i class="fa fa-envelope-o"></i>
+                    <span>
+                        <h5></h5>
+                        <p></p>
+                    </span>
+                 </div>
+
+             </div>
+             <div class="contact-col">
+                 <form action="form handler.php" method="post">
+                     <input type="text" name="name" placeholder="Enter Your Name"
+                     required>
+                     <input type="email" name="email" placeholder="Enter Email Adress"
+                     required> <br>
+                     
+                     <textarea  rows="8"   name="message" placeholder="message" required></textarea>
+                     <button type="submit" class="hero-btn"> Send Message</button>
+
+                 </form>
+             </div>
+         </div>
+     </section>
+     
+     <!-----------important wesites-------------->
+     
+     <!----------vaciination--------->
+     
+     <!--------------------------HOW WE ARE WORKING---------->
+     
+     <!-----------------------testimonials------------------------>
+     
+    <!----------------------------CALL UU IF YOU NEED HELP------------>
+      
+      <!------------------FOOTER---------------->
+      <section class="footer">
+        <h4>About Us</h4>
+        <P>WE ARE HERE TO HELP YOU</P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twittew"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+
+
+
+      </section>
+
+
+
+
+<!--------javascript for toggle menu----------------->
+      <script>
+          var navLinks =document.getElementById("navLinks");
+
+          function showMenu(){
+              navLinks.style.right ="0"
+          }
+          function hideMenu(){
+              navLinks.style.right ="-300px"
+          }
+      </script>
+
     
 </body>
 </html>

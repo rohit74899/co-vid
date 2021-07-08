@@ -6,7 +6,7 @@
 .header{
     min-height:100vh;
     width: 100%;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQl2Hpmrbc-rXBmgf6J2Yv6v0b4ClskP0VFbA&usqp=CAU);
+    background-image: url(https://images.pexels.com/photos/48604/pexels-photo-48604.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     background-position: center;
     background-size: cover;
     position:relative;
@@ -88,14 +88,14 @@ nav .fa{
 }
 @media(max-width:700px){
     .text-box h1{
-        font-size:30px ;
+        font-size:40px ;
     }
     .nav-links ul li{
         display: block;
     }
     .nav-links{
-        position: absolute;
-        background: coral;
+        position: fixed;
+        background: #f44336;
         height: 100vh;
         width: 200px;
         top: 0;
@@ -106,7 +106,7 @@ nav .fa{
     }
     nav .fa{
         display: block;
-        color: #fff;
+        color: rgb(0, 0, 0);
         margin:10px;
         font-size: 22px;
         cursor: pointer;
@@ -115,6 +115,7 @@ nav .fa{
         padding: 30px;
 
     }
+    
 }
 
 /*------------important websites---------*/
@@ -218,4 +219,147 @@ h3{
     bottom: 49%;
     opacity: 1;
     transition: 0.5s;
+}
+/*-------------HOW WE WORK -------*/
+.work{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+
+
+
+
+
+
+/*----------------TESTIMONIALS----------------*/
+
+
+
+
+
+
+
+
+
+
+/*-----------------want help------------*/
+.cta{
+    margin: 100px auto;
+    width: 70%;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCaZab8Ep1z3iJKvfGT6kiiBpedphzEU_oXg&usqp=CAU);
+    background-position: center;
+    background-size: cover ;
+    border-radius: 30px;
+    text-align: center;
+    padding: 100px 0;
+
+}
+.cta{
+    color: #fff;
+    margin-bottom: 40px;
+    padding: 0;
+}   
+@media(max-width: 700px){
+    .cta h1{
+        font-size: 24px;
+    }
+}
+/*-----------------------FOOTER-----------*/
+.footer{
+    width:100%;
+    text-align:center;
+    padding: 30px 0;
+
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+
+/*--------------------about us pge---------------*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(https://i0.wp.com/3minute.club/wp-content/uploads/2016/08/Yellow-background.png?ssl=1);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.about-col h1{
+    padding-top: 0 ;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+@media(max-width:700px){
+    .about-col img{
+        width: 100%;
+    }
+
+    }
+
+/*-----------------contact us page-------------*/
+
+.location{
+    width: 80%;
+    margin: auto;
+    padding: 80px 0;
+}
+.location iframe{
+    width: 100%;
+}
+.contact-us{
+    width: 80%;
+    margin: auto;
+}
+.contact-col{
+    flex-basis: 48%;
+    margin-bottom: 30px;
+
+}
+.contact-col div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.contact-col div .fa{
+    font-size: 28px;
+    color: #f44336;
+    margin: 10px;
+    margin-right: 30px;
+}
+.contact-col div p{
+    padding: 0;
+}
+.contact-col div h5{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 400;
+
+}
+.contact-col input, .contact-col textarea{
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 17px;
+    outline: none;
+    border: 1px solid #ccc;
 }
