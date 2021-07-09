@@ -363,3 +363,14 @@ h3{
     outline: none;
     border: 1px solid #ccc;
 }
+/*-------------video--------------*/
+@media(max-width:700px){
+    .about-col iframe{
+        width: 100%;
+    }
+
+    }
+.about-col img{
+    position: center;
+}
+

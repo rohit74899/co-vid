@@ -4,35 +4,107 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>precautions</title>
-    <style>
-        body{
-         background-color: rgb(176, 117, 216);
-         background-size: cover;
-         height: 100%;
-         font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-         image-rendering: -moz-crisp-edges;
-         background-image:url()
-        }
-        img{
-            size: 100px;
-        }
-    </style>
+    <title>covid 19</title>
+    <link rel="stylesheet" href="styl.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="sha384-wESLQ85D6gbsF459vf1CiZ2+rr+CsxRY0RpiF1tLlQpDnAgg6rwdsUF1+Ics2bni" crossorigin="anonymous">
 </head>
-<body><h1>Protect yourself and others around you by knowing the facts and taking appropriate precautions. Follow advice provided by your local health authority.</h1>
+<body>
+     <section class="sub-header">
+         <nav>
+             <a href="index.html"><img src="" alt=""></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                 <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="">OTHER</a></li>
+                
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()" ></i>
+         </nav>
+         <h1>COVID-19 precautions</h1>
+        
+     </section>
+     <!---------------about us content----------------->
+     <section class="about-us">
+         <div class="row">
+             <div class="about-col">
+                 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/-Fdo_HT3X80" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+                <ul>
+                    <li> Clean your hands often. Use soap and water, or an alcohol-based hand rub.</li>
+                    <li> Maintain a safe distance from anyone who is coughing or sneezing.</li>
+                    <li>Wear a mask when physical distancing is not possible.</li>
+                    <li> Don’t touch your eyes, nose or mouth.</li>
+                    <li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.</li>
+                    <li>Stay home if you feel unwell.</li>
+                    <li>If you have a fever, cough and difficulty breathing, seek medical attention</li></ul>.
+               
+                
+                    
+                   
+                    
+                    
+                
+               
+             </div>
 
-    <h2>To prevent the spread of COVID-19:</h2>
-    <img  src="https://lh3.googleusercontent.com/tlLwsakAU1kU7VTDKf3TDpLSqDnPtU7iVml8z-zxnI7aoK3yseo3R0rtmY05nMi_jvIN=s119" alt="img" styles="width= 150px" height="250px">
-    <img src="https://lh3.googleusercontent.com/HnweheBZLW4tSu0JiQowZrIsmOE1VAkhLnvprm8HjXa3OJR4te8wFJX1-UUl3oiJCiOncg=s85" alt="">
-    <h3>
-         <ul>
-             <li></li> Clean your hands often. Use soap and water, or an alcohol-based hand rub.
-             <li></li> Maintain a safe distance from anyone who is coughing or sneezing.
-             <li></li>Wear a mask when physical distancing is not possible.
-             <li></li> Don’t touch your eyes, nose or mouth.
-             <li></li>Cover your nose and mouth with your bent elbow or a tissue when you cough or sneeze.
-             <li></li>Stay home if you feel unwell.
-             <li></li>If you have a fever, cough and difficulty breathing, seek medical attention</ul>.
-        </h3>
+             
+
+
+
+
+         </div>
+
+
+
+
+
+     </section>
+     <!-----------important wesites-------------->
+     
+     <!----------vaciination--------->
+     
+     <!--------------------------HOW WE ARE WORKING---------->
+     
+     <!-----------------------testimonials------------------------>
+     
+    <!----------------------------CALL UU IF YOU NEED HELP------------>
+      
+      <!------------------FOOTER---------------->
+      <section class="footer">
+        <h4>About Us</h4>
+        <P>WE ARE HERE TO HELP YOU</P>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twittew"></i>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-whatsapp"></i>
+        </div>
+
+
+
+      </section>
+
+
+
+
+<!--------javascript for toggle menu----------------->
+      <script>
+          var navLinks =document.getElementById("navLinks");
+
+          function showMenu(){
+              navLinks.style.right ="0"
+          }
+          function hideMenu(){
+              navLinks.style.right ="-300px"
+          }
+      </script>
+
+    
 </body>
 </html>
